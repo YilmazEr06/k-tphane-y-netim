@@ -3,13 +3,13 @@ from PyQt5.QtGui import *
 import sys
 import sqlite3
 from win32api import GetSystemMetrics
-import time
 import datetime
 
 date = datetime.datetime.now()
 
 time_string = date.strftime("%Y-%m-%d")
 anlik =datetime.datetime.strptime(time_string, "%Y-%m-%d")
+
 
 
 
